@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Validação de formulário</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Formulário de Cadastro</h1>
+      </div>
+      <form class="form" id="form">
+        <div class="form__controll">
+          <label for="username">Nome:</label>
+          <input type="text" name="username" id="username" />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>text notification</small>
+        </div>
+        <div class="form__controll">
+          <label for="email">Email:</label>
+          <input type="text" name="email" id="email" />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>text notification</small>
+        </div>
+        <div class="form__controll">
+          <label for="password">Senha:</label>
+          <input type="password" name="password" id="password" />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>text notification</small>
+        </div>
+        <div class="form__controll">
+          <label for="confirmPass">Confirme a senha:</label>
+          <input type="password" name="confirmPass" id="confirm__pass" />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>text notification</small>
+        </div>
+        <button class="btn" type="submit">Cadastrar</button>
+      </form>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/ce56093c1c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
